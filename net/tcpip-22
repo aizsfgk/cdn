@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-01-27T05:19:49.831Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="yy_GZwfBauncVUaX9aHm" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-27T05:22:15.490Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="QHleng3OjgiUjevcEFBi" version="14.2.7" type="github">
   <diagram id="N6bTNdhXPapW0SZOJ-v5" name="22">
     <mxGraphModel dx="1038" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="0_EllZYfChqZiOuZuSQe-2" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontFamily=Comic Sans MS;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="10" y="160" width="110" height="100" as="geometry" />
+          <mxGeometry x="40" y="300" width="110" height="100" as="geometry" />
         </mxCell>
         <mxCell id="lLQZEMd-stHD4MLGAoHS-1" value="" style="rounded=0;whiteSpace=wrap;html=1;comic=1;fontFamily=Comic Sans MS;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="200" y="302.5" width="140" height="120" as="geometry" />
@@ -43,20 +43,17 @@
         <mxCell id="lLQZEMd-stHD4MLGAoHS-13" value="struct file" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=1;fontFamily=Comic Sans MS;fontStyle=1;fontColor=#0000FF;" vertex="1" parent="1">
           <mxGeometry x="425" y="486" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="lLQZEMd-stHD4MLGAoHS-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;fontColor=#0000FF;entryX=0.575;entryY=-0.08;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="110" y="230" as="sourcePoint" />
-            <mxPoint x="273.25" y="303.4" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="lLQZEMd-stHD4MLGAoHS-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;comic=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontColor=#000000;" edge="1" parent="1" source="lLQZEMd-stHD4MLGAoHS-14" target="lLQZEMd-stHD4MLGAoHS-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lLQZEMd-stHD4MLGAoHS-14" value="&lt;font color=&quot;#000000&quot;&gt;files&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;comic=1;fontFamily=Comic Sans MS;fontColor=#0000FF;" vertex="1" parent="1">
-          <mxGeometry x="20" y="220" width="90" height="30" as="geometry" />
+          <mxGeometry x="50" y="360" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lLQZEMd-stHD4MLGAoHS-17" value="task_struct" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=1;fontFamily=Comic Sans MS;fontColor=#0000FF;" vertex="1" parent="1">
-          <mxGeometry x="25" y="180" width="80" height="20" as="geometry" />
+          <mxGeometry x="55" y="320" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="lLQZEMd-stHD4MLGAoHS-18" value="进程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
-          <mxGeometry x="40" y="140" width="40" height="20" as="geometry" />
+          <mxGeometry x="70" y="280" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="lLQZEMd-stHD4MLGAoHS-19" value="进程打开文件表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=1;fontFamily=Comic Sans MS;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="280" y="270" width="90" height="20" as="geometry" />
@@ -128,6 +125,21 @@
         </mxCell>
         <mxCell id="lLQZEMd-stHD4MLGAoHS-47" value="struct tcp_sock" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=1;fontFamily=Comic Sans MS;fontColor=#0000FF;" vertex="1" parent="1">
           <mxGeometry x="840" y="660" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lLQZEMd-stHD4MLGAoHS-48" value="文件结构体" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="370" y="460" width="85" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lLQZEMd-stHD4MLGAoHS-49" value="套接口" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=1;fontFamily=Comic Sans MS;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="722.5" y="466" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lLQZEMd-stHD4MLGAoHS-50" value="套接口操作句柄" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=1;fontFamily=Comic Sans MS;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="905" y="476" width="125" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lLQZEMd-stHD4MLGAoHS-51" value="套接口传输控制块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=1;fontFamily=Comic Sans MS;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="965" y="660" width="125" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lLQZEMd-stHD4MLGAoHS-52" value="inode节点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=1;fontFamily=Comic Sans MS;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="750" y="605" width="70" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
